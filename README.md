@@ -17,13 +17,13 @@ Please cite this paper in your work.
 
 Our code is written in Python and includes the following Python libraries:
 
-  -Numpy 1.19.5
+    -Numpy 1.19.5
 
-  -Scipy 1.4.1
+    -Scipy 1.4.1
 
-  -PyTorch 1.4.0
-  
-  -MatPlotLib 3.2.0
+    -PyTorch 1.4.0
+
+    -MatPlotLib 3.2.0
   
   For application to the SRNF shape distance:
   
