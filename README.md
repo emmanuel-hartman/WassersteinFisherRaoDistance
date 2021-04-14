@@ -37,8 +37,15 @@ Our code is written in Python and includes the following Python libraries:
 
 # Usage
 
+Usage of WFR explained a jupyter notebook called *Examples.ipynb*. 
+
+Usage of WFR for SRNF shape distance explained in jupyter notebook called *ShapeExample.ipynb*. 
+
+Usage of WFR for color transfer explained in jupyter notebook called *ColorTransferExample.ipynb*.
+
 # Main Functions
 
+Discriptions of the main functions can be found by calling help(WFR),help(PLShapes), or help(ColorTransfer).
         
 # License
 
