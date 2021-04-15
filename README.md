@@ -1,5 +1,5 @@
 # WassersteinFisherRaoDistance
-A optimization method for computing the unbalanced Wasserstein-Fisher-Rao optimal transport distance between two measures on S^2. Includes an application to computing the SRNF shape distance.
+A optimization method for computing the unbalanced Wasserstein-Fisher-Rao optimal transport distance between two measures on S^2. Includes an application to computing the SRNF shape distance and color tranfer.
 
 # References
 
