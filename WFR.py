@@ -72,7 +72,7 @@ def measureDistance(measure1,measure2,NoIterations,eps):
         P,Q=contractionRowCol(P,Q,Omega,a,b,m,n)
         cost[k+1,:]=calcF(P,Q,Omega).cpu()
         ind=k+1
-        if cost[k+1]<eps+cost[k,:]:
+        if (cost[k+1]-cost[k,:])/cost[k+1]<eps:
             break   
     dist=torch.sqrt(sum(a.cpu())+sum(b.cpu())-2*calcF(P,Q,Omega).cpu())
     return dist,cost,ind,P,Q 
