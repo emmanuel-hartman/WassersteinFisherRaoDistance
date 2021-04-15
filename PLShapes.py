@@ -165,12 +165,12 @@ class PLShape:
             xi[1,:]=x[G[i,1]]
             xi[2,:]=x[G[i,2]]
             
-            Int=N[i]@S/6
+            Int=N[i]@S/3
 
             xi= o3d.open3d_pybind.utility.Vector3dVector(xi)
             Gi= o3d.open3d_pybind.utility.Vector3iVector(Gi)
             iTri= o3d.geometry.TriangleMesh(xi,Gi)
-            iTri.paint_uniform_color(Base*(.33+.66*Int))
+            iTri.paint_uniform_color(Base*(.5+.5*Int))
             newmesh=newmesh+iTri
 
         self.mesh=newmesh
@@ -195,8 +195,7 @@ class PLShape:
 
         x1 = np.asarray(self.mesh.vertices)
         G1 = np.asarray(self.mesh.triangles)
-        x1[:,2]=x1[:,2]+200
-
+        
         cats=self.mesh
         cats.clear()
         
@@ -266,6 +265,10 @@ class PLShape:
     
     def getRotatedShape(self,R):
         """
+        Parameters
+        ----------
+        R : tensor 
+            tensor representing a rotation
         Returns        
         ----------
         shape: PLShape
