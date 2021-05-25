@@ -4,14 +4,16 @@ An optimization method for computing the unbalanced Wasserstein-Fisher-Rao optim
 # References
 
 ```
-@misc{WFR-SRNF,
-  author  = {Martin Bauer, Emanuel Hartman, Eric Klassen},
-  title   = {THE  SQUARE  ROOT  NORMAL  FIELD  METRIC  AND UNBALANCED  OPTIMAL  TRANSPORT},
-  note    = {Preprint available on ArXiv soon},
-  year    = {2021},
+@misc{bauer2021square,
+      title={The Square Root Normal Field Distance and Unbalanced Optimal Transport}, 
+      author={Martin Bauer and Emmanuel Hartman and Eric Klassen},
+      year={2021},
+      eprint={2105.06510},
+      archivePrefix={arXiv},
+      primaryClass={math.DG}
 }
 ```
-Please cite this paper in your work.
+Please cite this paper in your work. Available at https://arxiv.org/abs/2105.06510
 
 # Requirements
 
