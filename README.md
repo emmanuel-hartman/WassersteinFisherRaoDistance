@@ -1,6 +1,8 @@
 # WassersteinFisherRaoDistance
 An optimization method for computing the unbalanced Wasserstein-Fisher-Rao optimal transport distance between two measures on S^2. Includes an application to computing the SRNF shape distance and color tranfer.
 
+## Note a full implementation of the block coordinate method is available on a new repo https://github.com/emmanuel-hartman/BCMOUT-pytorch
+
 # References
 
 ```
